@@ -1,0 +1,5 @@
+.idea
+node_modules
+build
+.pub
+.dart_tool

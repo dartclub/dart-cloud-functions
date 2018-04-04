@@ -9,9 +9,8 @@ void main() {
 }
 
 void helloWorld(ExpressHttpRequest request) {
-  request.response.headers.contentType = ContentType.JSON;
-  request.response.write(json.encode({'key' : 'hello from dart json'}));
-  request.response.close();
+  request.response
+    ..headers.contentType = ContentType.JSON
+    ..write(json.encode({'key' : 'hello from dart'}))
+    ..close();
 }
-
-

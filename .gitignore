@@ -3,3 +3,5 @@ node_modules
 build
 .pub
 .dart_tool
+firebase-debug.log
+cloud-functions-emulator.log
